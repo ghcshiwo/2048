@@ -107,8 +107,6 @@ function updateBoardView(){
                 theNumCell.css("color",getNumColor(board[i][j]));
                 theNumCell.text(board[i][j]);
                 theNumCell.css("font-size",getNumFontSize(board[i][j]));
-
-                console.log(board[i][j]+'：'+getNumFontSize(board[i][j])+'：'+theNumCell.css("font-size"));
             }
             hasConflicted[i][j] = false;
         }
