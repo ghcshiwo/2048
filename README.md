@@ -7,9 +7,9 @@
 
 #### 页面说明
 
-	- `index.html` : 页面代码
-	- `2048.css` : 样式文件
-	- `main.js` : 主函数
-	- `support2048.js` : 公共函数
-	- `showanimation.js` : 动画函数
++  `index.html` : 页面代码
++  `2048.css` : 样式文件
++  `main.js` : 主函数
++  `support2048.js` : 公共函数
++  `showanimation.js` : 动画函数
 
