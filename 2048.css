@@ -51,6 +51,7 @@ header p{
     font-family: Arial;
     font-weight: bold;
     position: absolute;
+    font-size: 60px;
 }
 @media screen and (min-width: 900px) {
     html,body{

@@ -105,15 +105,17 @@ function updateBoardView(){
                 theNumCell.css("left",getPosLeft(i,j));
                 theNumCell.css("background-color",getNumBgColor(board[i][j]));
                 theNumCell.css("color",getNumColor(board[i][j]));
-                theNumCell.css("font-size",getNumFontSize(board[i][j]));
                 theNumCell.text(board[i][j]);
+                theNumCell.css("font-size",getNumFontSize(board[i][j]));
+
+                console.log(board[i][j]+'：'+getNumFontSize(board[i][j])+'：'+theNumCell.css("font-size"));
             }
             hasConflicted[i][j] = false;
         }
     }
     $(".num-cell").css("border-radius",0.02 * cellSideLength);
     $(".num-cell").css("line-height",cellSideLength+"px");
-    $(".num-cell").css("font-size",0.6 * cellSideLength+"px");
+    // $(".num-cell").css("font-size",0.6 * cellSideLength+"px");
 }
 /**
  * [generateOneNumber 生成一个数字]
